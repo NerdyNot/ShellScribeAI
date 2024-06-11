@@ -23,7 +23,7 @@ ShellScribeAI is a powerful tool designed to dynamically generate and execute sc
    Clone the ShellScribeAI repository to your local machine.
 
    ```sh
-   git clone https://github.com/YourUsername/ShellScribeAI.git
+   git clone https://github.com/NerdyNot/ShellScribeAI.git
    cd ShellScribeAI
    ```
 
@@ -46,7 +46,7 @@ ShellScribeAI is a powerful tool designed to dynamically generate and execute sc
    go get github.com/manifoldco/promptui
    ```
 
-   Alternatively, you can use `go mod tidy` to clean up and verify dependencies. This command will ensure that the `go.mod` and `go.sum` files are up to date and only include the necessary dependencies:
+   Alternatively, you can use `go mod tidy` to clean up and verify dependencies. This command will ensure that the `go.mod` and `go.sum` files are up to date and only include the necessary dependencies.
 
    ```sh
    go mod tidy
@@ -54,13 +54,13 @@ ShellScribeAI is a powerful tool designed to dynamically generate and execute sc
 
 4. **Set Environment Variables**
 
-   Set your OpenAI API key as an environment variable:
+   Set your OpenAI API key as an environment variable.
 
    ```sh
    export OPENAI_API_KEY="your_openai_api_key"
    ```
 
-   For Windows PowerShell, set the environment variable as follows:
+   For Windows PowerShell, set the environment variable as follows.
 
    ```ps
    $env:OPENAI_API_KEY="your_openai_api_key"
@@ -176,7 +176,7 @@ ShellScribeAI는 사용자의 입력을 기반으로 OpenAI API를 통해 동적
    ShellScribeAI 리포지토리를 로컬 머신에 클론합니다.
 
    ```sh
-   git clone https://github.com/YourUsername/ShellScribeAI.git
+   git clone https://github.com/NerdyNot/ShellScribeAI.git
    cd ShellScribeAI
    ```
 
@@ -199,7 +199,7 @@ ShellScribeAI는 사용자의 입력을 기반으로 OpenAI API를 통해 동적
    go get github.com/manifoldco/promptui
    ```
 
-   또는, `go mod tidy` 명령을 사용하여 의존성을 정리하고 검증할 수 있습니다. 이 명령은 `go.mod`와 `go.sum` 파일이 최신 상태이며 필요한 의존성만 포함하도록 보장합니다:
+   또는, `go mod tidy` 명령을 사용하여 의존성을 정리하고 검증할 수 있습니다. 이 명령은 `go.mod`와 `go.sum` 파일이 최신 상태이며 필요한 의존성만 포함하도록 보장합니다.
 
    ```sh
    go mod tidy
@@ -207,13 +207,13 @@ ShellScribeAI는 사용자의 입력을 기반으로 OpenAI API를 통해 동적
 
 4. **환경 변수 설정**
 
-   OpenAI API 키를 환경 변수로 설정하십시오:
+   OpenAI API 키를 환경 변수로 설정하십시오.
 
    ```sh
    export OPENAI_API_KEY="your_openai_api_key"
    ```
 
-   Windows의 경우 PowerShell을 사용하여 환경 변수를 설정할 수 있습니다:
+   Windows의 경우 PowerShell을 사용하여 환경 변수를 설정할 수 있습니다.
 
    ```ps
    $env:OPENAI_API_KEY="your_openai_api_key"
